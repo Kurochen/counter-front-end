@@ -1,0 +1,20 @@
+my old contract - EQBdE89LfQcI5I9LCH-4zaIUOy-ttD-b241lltf_TPUAxQ3O
+owner adres this contract - EQBgeqRdJq3RjMitq7lKJvCj7Z2OkaJo7tEW3YF8p-px751p
+
+new wallwt test addres - 0QBgeqRdJq3RjMitq7lKJvCj7Z2OkaJo7tEW3YF8p-px73sm
+old wallet test addres - kQBgeqRdJq3RjMitq7lKJvCj7Z2OkaJo7tEW3YF8p-px7ybj
+
+old wallet main addres - EQBgeqRdJq3RjMitq7lKJvCj7Z2OkaJo7tEW3YF8p-px751p
+
+
+
+
+
+
+
+
+
+
+Connected to wallet at address: EQBgeqRdJq3RjMitq7lKJvCj7Z2OkaJo7tEW3YF8p-px751p
+Contract deployed at address EQBdE89LfQcI5I9LCH-4zaIUOy-ttD-b241lltf_TPUAxQ3O
+You can view it at https://testnet.tonscan.org/address/EQBdE89LfQcI5I9LCH-4zaIUOy-ttD-b241lltf_TPUAxQ3O
