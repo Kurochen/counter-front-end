@@ -73,13 +73,13 @@ function App() {
           <div className="Hint">{owner_address?.toString()}</div>
           <hr />
 
-          {/* {contract_balance && ( */}
-          <>
-            <b>Our contract Balance:</b>
-            <div className="Hint">{fromNano(contract_balance)}</div>
-            <hr />
-          </>
-          {/* )} */}
+          {contract_balance !== null && (
+            <>
+              <b>Our contract Balance:</b>
+              <div className="Hint">{fromNano(contract_balance)}</div>
+              <hr />
+            </>
+          )}
 
           {recent_sender && (
             <>

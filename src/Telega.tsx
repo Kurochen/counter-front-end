@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 const TelegramComments = () => {
   useEffect(() => {
@@ -13,7 +13,7 @@ const TelegramComments = () => {
     script.setAttribute("data-height", "300px"); // Высота виджета
 
     // Добавляем скрипт в DOM
-    document.getElementById("telegram-comments").appendChild(script);
+    document.getElementById("telegram-comments")?.appendChild(script);
   }, []); // Пустой массив зависимостей, чтобы выполнить только один раз при монтировании компонента
 
   return <div id="telegram-comments"></div>;
