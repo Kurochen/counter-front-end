@@ -44,6 +44,7 @@ import { TonConnectButton } from "@tonconnect/ui-react";
 import { useMainContract } from "./hooks/useMainContract";
 import { useTonConnect } from "./hooks/useTonConnect";
 import { fromNano } from "ton-core";
+import WebApp from "@twa-dev/sdk";
 
 function App() {
   const {
@@ -58,11 +59,25 @@ function App() {
   } = useMainContract();
   const { connected } = useTonConnect();
 
+  const showAlert = () => {
+    WebApp.showAlert("Hey there!");
+  };
+
   return (
     <div>
       <TonConnectButton />
 
       <div className="container">
+        <a
+          onClick={() => {
+            showAlert();
+          }}
+        >
+          Show Alert
+        </a>
+        <div>
+          <b>{WebApp.platform}</b>
+        </div>
         <div>
           <h3>Contract Data:</h3>
           <b>Our contract Address:</b>
